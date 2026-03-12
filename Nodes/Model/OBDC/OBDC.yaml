@@ -1,0 +1,122 @@
+Name: OBDC
+Id: g=e0136cca0726d1b1700dbb036f19592b
+Type: FolderType
+Children:
+- Name: Flujo
+  Id: g=3f6d9a6d20a873bba09fa66e07e28276
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: FlujoRangeTransitioned
+  Id: g=ef41dd1a168322d0c24e2aa064f9d621
+  Type: VariableRangeTransitionEventDispatcher
+  Children:
+  - Name: From
+    Id: g=6e0e65dc5e3b235dd9edb84f986427ce
+    Type: BaseVariableType
+    DataType: Double
+    Value: 50.0
+  - Name: To
+    Id: g=75550c002c776aaddf3693e3122337d9
+    Type: BaseVariableType
+    DataType: Double
+    Value: 75.0
+  - Name: Transition
+    Id: g=41016309af3e07ab8a477837cc0c3db1
+    Type: BaseVariableType
+    DataType: VariableRangeTransition
+  - Name: VariableNodePath
+    Id: g=be1e9b019bda5af06c020ae317432500
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Flujo"
+  - Name: VariableRangeTransitionEventHandler1
+    Id: g=7eaeab3f874f07597001d54dda7ce4f9
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=43f5c0dcb061c58e53ec65298f9ebab2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableRangeTransitionEvent"
+    - Name: MethodsToCall
+      Id: g=ed02d55f31b4877220f1abcae33cde07
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=84f4718bba235c2d034e55c89a652659
+        Type: BaseObjectType
+        Children:
+        - Name: ns=2;ObjectPointer
+          Id: g=f3efa3e259762259a88a8651b718e666
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Id: g=a72275a7b5de505f82e270e7732d1c4c
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=2d7631ea7fb2b4be89016e0d84baf516
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../Loggers/DataLogger1@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=c1e878750638969c30455c9ae927a1c8
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=2;Method
+          Id: g=ac90d67a8276c7334ae411817a0c1b7c
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Log"
+    - Name: EventArguments
+      Id: g=a4a7ecc36f5bff53407d67738caa2572
+      Type: VariableRangeTransitionEvent
+      Children:
+      - Name: VariableNodeId
+        Id: g=262e4db79390d1f9b81aed6df964344f
+        Type: BaseVariableType
+        DataType: NodeId
+      - Name: NewValue
+        Id: g=7c347afad32f6e06454e794c36d55b24
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Id: g=d57c3414f7305e093b48cd0cff03ee1c
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Id: g=d78cd7391042cc05c529cee588949707
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Id: g=327812bd5b3ecbbf444a5732e1538226
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Id: g=a4ddfb8e6f76587dcaa5c58d14477d94
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Id: g=bb7356b7b171859ce17edc1257071156
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Id: g=cc9025715478a9fb5fdffbf9896982f3
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Id: g=5c6884648b777650a82e42916fc15668
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Id: g=12fab30b59ad65cdfe35062a5b8dd6f8
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Id: g=862eb41719a7ed0f1a1ba3ee54a805cc
+        Type: PropertyType
+        DataType: UInt16

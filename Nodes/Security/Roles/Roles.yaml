@@ -1,0 +1,7 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: TECN
+  Id: g=7ddab2b17622d5c6cbfe70a6df960139
+  Type: ns=1;RoleType

@@ -1,0 +1,70 @@
+Name: Auditoria
+Id: g=5c8d33545b7c88ce055206e56dadf3ba
+Type: FolderType
+Children:
+- Name: DConf
+  Id: g=f7f3e7d70cf31a0d534dc914231670f0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=9217c8d41559fbc2352bb85d76eda128
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=caf6e7b579ac23c38c6a1ec2af641524
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=341b1f3b6519b15ec401c70877837d0d
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=4385688c7481baf09d5df7f7d3c7b6a5
+      Type: PropertyType
+      DataType: WorkflowType
+- Name: DFirm1
+  Id: g=f72e719f662a91ed0ccf120ffe04f56e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=7c1524e9522d79b7f00787a55a274924
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=83668ddce55c3b3e77882443932e754c
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=f979dab4f5319179a1bc6fe7d89b430f
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=0698ba1951c5761aa1f9f4eb41565330
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 1
+- Name: DFirm2
+  Id: g=e0e5fd0eddea3594ada8b2ac149d36cc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: AuditSigning Signature
+    Id: g=2d40c2ec5123b05df487460427c4f90d
+    Type: AuditInfo
+    ReferenceType: NonHierarchicalOwning
+    Children:
+    - Name: Users
+      Id: g=31835af2fc035272105429760adf8f6c
+      Type: BaseObjectType
+    - Name: Groups
+      Id: g=224028929ba70881f9715ddbd84e8c5c
+      Type: BaseObjectType
+    - Name: WorkflowType
+      Id: g=2b219f979d495b2d332cdad52ebb0026
+      Type: PropertyType
+      DataType: WorkflowType
+      Value: 2
+- Name: Confirmacion
+  Id: g=6abcf6762620e38391f23fded2934232
+  Type: BaseDataVariableType
+  DataType: Int32

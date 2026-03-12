@@ -1,0 +1,16 @@
+Name: OPC
+Id: g=0feeed8eaaa367943ae3ab26e065f8ff
+Type: FolderType
+Children:
+- Name: Power
+  Id: g=e05759aa6f346919a4a98ce4eba948b2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Speed
+  Id: g=db2fa87c25f5618601165bf44ec06e7b
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: State
+  Id: g=804ce343a8563ad39e0b0896ff464a06
+  Type: BaseDataVariableType
+  DataType: Int32

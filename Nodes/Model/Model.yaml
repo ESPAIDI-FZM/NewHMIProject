@@ -1,0 +1,7 @@
+Name: Model
+Id: g=7448541faae2e213d14c65384a7aaf5c
+Type: ModelCategoryFolder
+Children:
+- File: Auditoria/Auditoria.yaml
+- File: OBDC/OBDC.yaml
+- File: OPC/OPC.yaml

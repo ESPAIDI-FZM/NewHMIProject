@@ -1,0 +1,17 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: ADMIN
+  Id: g=0f9a6442955e637e16c6931a2bfa806d
+  Type: GroupType
+- Name: OPER
+  Id: g=348c2d61aa973f94f5d76162d801dc7a
+  Type: GroupType
+- Name: MANT
+  Id: g=06f5cdcd389ee584f946aa9cc35fb077
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=7ddab2b17622d5c6cbfe70a6df960139
